@@ -28,3 +28,17 @@ const createPet = function (name, species) {
       }
     }
   };
+  return pet;
+};
+const sora = createPet("Sora", "ferret");
+const clover = createPet("Clover", "rabbit");
+const baxter = createPet("Baxter", "hamster");
+const cleo = createPet("Cleo", "rat");
+const francine = createPet("Francine", "turtle");
+
+console.log(sora, clover, baxter, cleo, francine);
+
+clover.sleep();
+baxter.play();
+
+console.log(clover, baxter);
